@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.tsx",
+    "lint": "eslint 'src/**/*.tsx'",
     "lint:fix": "yarn lint --fix",
     "server": "lite-server -c lite-server.json"
   },

@@ -85,3 +85,19 @@ svg text {
 path:hover {
   fill: blue;
 }
+
+.error {
+  fill: #73181c;
+}
+
+.warn {
+  fill: #e04b4a;
+}
+
+.info {
+  fill: #f08e7e;
+}
+
+.safe {
+  fill: #2fdd3e;
+}
