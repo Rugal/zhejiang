@@ -13,9 +13,12 @@
     "@types/react": "16.9.2",
     "@types/react-dom": "^16.9.5",
     "@types/react-redux": "^7.1.5",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.18.0",
     "react-scripts": "3.1.2",
-    "tslint": "^5.18.0",
-    "tslint-react": "^4.0.0",
     "typescript": "3.5.3"
   },
   "scripts": {
@@ -23,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
-    "lint": "tslint -c tslint.json 'src/**/*.tsx'",
+    "lint": "eslint src/**/*.tsx",
     "lint:fix": "yarn lint --fix",
     "server": "lite-server -c lite-server.json"
   },
