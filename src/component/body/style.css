@@ -1,0 +1,83 @@
+.quzhou {
+  fill: #CDB58A;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.hangzhou {
+  fill: #D4ECB2;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.jinhua {
+  fill: #f0bb2c;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.lishui {
+  fill: #D4ECB2;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .wenzhou {
+  fill: #EE8B94;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .shaoxing {
+  fill: #F6F67B;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .taizhou {
+  fill: #FBE6EF;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .ningbo {
+  fill: #F8C67D;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .huzhou {
+  fill: #FBE6EF;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .jiaxing {
+  fill: #EE8B94;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .shaoxing {
+  fill: rgb(247, 81, 177);
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .wenzhou {
+  fill: #2fdd3e;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+ .zhoushan {
+  fill: #EE8A95;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+svg text {
+  color: rgb(0, 0, 0);
+  font-family: "SimSun";
+  font-size: 10pt;
+}

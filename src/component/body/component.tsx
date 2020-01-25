@@ -1,11 +1,12 @@
 import React from "react";
 
-import { ReactComponent as Map } from "./image/map.svg";
+import Zhejiang from "./map";
+import "./style.css";
 
 const Body: React.FC = () => {
   return (
     <React.Fragment >
-      <Map />
+      <Zhejiang />
     </React.Fragment>
   );
 };
