@@ -81,3 +81,7 @@ svg text {
   font-family: "SimSun";
   font-size: 10pt;
 }
+
+path:hover {
+  fill: blue;
+}
