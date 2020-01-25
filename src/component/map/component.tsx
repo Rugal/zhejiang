@@ -27,7 +27,7 @@ const getPolygon = (cname: string, points: string) => <polygon className={cname}
 const getPolygons = (cname: string, s: IStatistics) => s.polygon &&
   s.polygon.map((p, i) => getPolygon(cname, p.points));
 
-const Zhejiang: React.FC<IProps> = (p) =>
+const Map: React.FC<IProps> = (p) => (
   <svg width="800px" height="800px">
     {p.statistics.map((s: IStatistics, i) =>
       <React.Fragment key={i}>
@@ -37,6 +37,6 @@ const Zhejiang: React.FC<IProps> = (p) =>
       </React.Fragment>,
     )}
   </svg>
-  ;
+);
 
-export default Zhejiang;
+export default Map;

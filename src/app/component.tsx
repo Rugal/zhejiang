@@ -1,12 +1,9 @@
 import React from 'react';
 
-import Body from '../component/body';
+import Map from '../component/map';
+import {statistics} from '../data';
+import './style.css';
 
-const App: React.FC = () => {
-  return (
-    <React.Fragment >
-      <Body />
-    </React.Fragment>
-  );
-};
+const App: React.FC = () => <Map statistics={statistics} />;
+
 export default App;
