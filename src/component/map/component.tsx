@@ -25,14 +25,17 @@ interface IProps {
 // this function is very important
 //
 const getClassName = (s: IStatistics) => {
-  if (s.incident < 1)
+  if (s.incident < 1) {
     return `${s.className} safe`;
-  if (s.incident < 3)
+  }
+  if (s.incident < 3) {
     return `${s.className} info`;
-  if (s.incident < 8)
+  }
+  if (s.incident < 8) {
     return `${s.className} warn`;
-  else
+  } else {
     return `${s.className} error`;
+  }
 };
 
 const getPath = (cname: string, d: string) => <path className={cname} d={d} />;
@@ -47,7 +50,7 @@ const Map: React.FC<IProps> = (p) => (
         {getPaths(getClassName(s), s)}
         {getPolygons(getClassName(s), s)}
         <text key={i} transform={s.transform} >{s.name}: {s.incident}</text>
-      </React.Fragment>
+      </React.Fragment>,
     )}
   </svg>
 );
